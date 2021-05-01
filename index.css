@@ -1,0 +1,32 @@
+
+div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    flex-direction: column;
+}
+button{
+    outline: none;
+    text-decoration: none;
+    background-color:rgb(65, 62, 62);
+    border: none;
+    border-radius: 5px;
+    width: 200px;
+    height: 50px;
+    color: white;
+    font-family: Poppins;
+    font-weight: bold;
+    cursor: pointer;
+    letter-spacing: 5px;
+    font-size: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.541);
+}
+h1{
+    font-family: Poppins;
+    font-size: 50px;
+    margin-bottom: 100px;
+}
+button:hover{
+    background-color: rgb(24, 23, 23);
+}
